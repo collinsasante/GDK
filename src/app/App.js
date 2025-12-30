@@ -15,6 +15,8 @@ const Contact = lazy(() => import('../pages/contact'));
 const Admin = lazy(() => import('../pages/admin'));
 const Checkout = lazy(() => import('../pages/checkout'));
 const MyLessons = lazy(() => import('../pages/my-lessons'));
+const Wishlist = lazy(() => import('../pages/wishlist'));
+const Faq = lazy(() => import('../pages/faq'));
 const Error = lazy(() => import('../pages/404'));
 
 
@@ -47,6 +49,8 @@ const App = () => {
                             <Route path="/admin" element={<Admin />} />
                             <Route path="/checkout" element={<Checkout />} />
                             <Route path="/my-lessons" element={<MyLessons />} />
+                            <Route path="/wishlist" element={<Wishlist />} />
+                            <Route path="/faq" element={<Faq />} />
                             <Route path='*' element={<Error />} />
                         </Routes>
                     </Suspense>

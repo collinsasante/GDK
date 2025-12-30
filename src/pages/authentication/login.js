@@ -1,43 +1,35 @@
-import React from 'react';
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
-import Breadcrumb from '../../components/Breadcrumb';
-import LoginMain from './LoginMain';
-import ScrollToTop from '../../components/ScrollTop';
+import React from "react";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+import Breadcrumb from "../../components/Breadcrumb";
+import LoginMain from "./LoginMain";
+import ScrollToTop from "../../components/ScrollTop";
 
-import Logo from '../../assets/images/logos/logo2.png';
-
+import Logo from "../../assets/images/logos/logo2.png";
 
 const Login = () => {
-    return (
-        <>
-            <Header
-                parentMenu='page'
-                menuCategoryEnable='enable'
-                headerNormalLogo={Logo}
-                headerStickyLogo={Logo}
-            />
+  return (
+    <>
+      <Header
+        parentMenu="page"
+        menuCategoryEnable="enable"
+        headerNormalLogo={Logo}
+        headerStickyLogo={Logo}
+      />
 
-            <div class="react-wrapper">
-                <div class="react-wrapper-inner">
-                    <Breadcrumb
-                        pageTitle="Login"
-                    />
+      <div class="react-wrapper">
+        <div class="react-wrapper-inner">
+          <LoginMain />
 
-                    <LoginMain />
+          {/* scrolltop-start */}
+          <ScrollToTop />
+          {/* scrolltop-end */}
+        </div>
+      </div>
 
-                    {/* scrolltop-start */}
-                    <ScrollToTop />
-                    {/* scrolltop-end */}
-                </div>
-            </div>
-
-            <Footer />
-
-        </>
-    );
-}
-
+      <Footer />
+    </>
+  );
+};
 
 export default Login;
-

@@ -2,7 +2,7 @@
 *
 * -----------------------------------------------------------------------------
 *
-* Template : Echooling - Online Education React Template
+* Template : Gospel Keys Demystified - Gospel Piano Learning Platform
 * Author : reacthemes
 * Author URI : https://reactheme.com/
 *
@@ -233,7 +233,7 @@
 	    padding: 11px 30px;
 	}
 	
-	.react-breadcrumbs.breadcrumbs-courses__single .breadcrumbs-wrap img{
+	.page-header-section.breadcrumbs-courses__single .breadcrumbs-wrap img{
 		height: 420px;
 	}
 	.react-menus > li > a {
@@ -412,7 +412,7 @@
 		padding-bottom: 100px;
 		padding-top: 120px;
 	}
-	.react-breadcrumbs.single-page-breadcrumbs .breadcrumbs-wrap > img {
+	.page-header-section.single-page-breadcrumbs .breadcrumbs-wrap > img {
 		min-height: 400px !important;
 		object-fit: cover;
 	}
@@ -652,7 +652,7 @@
     .react-blog-page .single-blog .blog-content .blog-title br{
     	display: none;
     }
-    .react-breadcrumbs .breadcrumbs-wrap .breadcrumbs-inner .breadcrumbs-text .breadcrumbs-title {
+    .page-header-section .breadcrumbs-wrap .breadcrumbs-inner .breadcrumbs-text .breadcrumbs-title {
         font-size: 40px;
     }
     .event2__content-wrapper h3 br{
@@ -798,20 +798,20 @@
 	.react-blog-page .single-blog .blog-content .blog-desc br{
 		display: none;
 	}
-	.react-breadcrumbs .breadcrumbs-wrap img{
+	.page-header-section .breadcrumbs-wrap img{
 		min-height: 200px;
 	}
-	.blog-post-single-page .react-breadcrumbs .breadcrumbs-wrap img,
-	.course-single .react-breadcrumbs .breadcrumbs-wrap img{
+	.blog-post-single-page .page-header-section .breadcrumbs-wrap img,
+	.course-single .page-header-section .breadcrumbs-wrap img{
 		min-height: auto;
 	}
-	.react-breadcrumbs .breadcrumbs-wrap .breadcrumbs-inner .breadcrumbs-text br{
+	.page-header-section .breadcrumbs-wrap .breadcrumbs-inner .breadcrumbs-text br{
 		display: none;
 	}
 }
 
 @media screen and (max-width: 600px) {
-	.react-breadcrumbs .breadcrumbs-wrap .breadcrumbs-inner .breadcrumbs-text .breadcrumbs-title{
+	.page-header-section .breadcrumbs-wrap .breadcrumbs-inner .breadcrumbs-text .breadcrumbs-title{
 		font-size: 30px;
 	}
 	body.course-single .user-section li {

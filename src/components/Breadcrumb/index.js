@@ -7,7 +7,7 @@ const Breadcrumb = (props) => {
 	const { pageTitle } = props;
 
 	return (
-		<div className="react-breadcrumbs">
+		<div className="page-header-section">
 			<div className="breadcrumbs-wrap">
 				<img className="desktop" src={breadcrumbsImg} alt="Breadcrumbs" />
 				<img className="mobile" src={breadcrumbsImg} alt="Breadcrumbs" />
@@ -24,7 +24,7 @@ const Breadcrumb = (props) => {
 						</div>
 					</div>
 				</div>
-			</div>                
+			</div>
 		</div>
 	);
 }

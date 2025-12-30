@@ -15,7 +15,7 @@ const MyLessons = () => {
             />
             <MyLessonsMain />
             <ScrollToTop />
-            <FooterTwo footerLogo={footerLogo} />
+            <FooterTwo footerLogo={footerLogo} hideCta={true} />
         </>
     );
 };

@@ -5,7 +5,7 @@ const Breadcrumb = (props) => {
     const { postTitle, postBannerImg, postCategory, postAuthor, postAuthorImg, postPublishedDate, postTotalView } = props;
 
 	return (
-		<div className="react-breadcrumbs single-page-breadcrumbs">
+		<div className="page-header-section single-page-header">
 			<div className="breadcrumbs-wrap">
 				<img className="desktop" src={require(`../../assets/images/blog/${postBannerImg}`)} alt="Breadcrumbs" />
 				<img className="mobile" src={require(`../../assets/images/blog/${postBannerImg}`)} alt="Breadcrumbs" />
@@ -25,8 +25,8 @@ const Breadcrumb = (props) => {
 						</div>
 					</div>
 				</div>
-			</div>                
 			</div>
+		</div>
 	);
 }
 

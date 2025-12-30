@@ -1,0 +1,21 @@
+# Cloudflare Pages Configuration
+name = "gospel-keys-demystified"
+compatibility_date = "2024-01-01"
+
+[build]
+command = "npm run build"
+cwd = "."
+watch_dir = "src"
+
+[build.upload]
+format = "service-worker"
+
+[[build.upload.rules]]
+type = "Text"
+globs = ["**/*.html", "**/*.txt"]
+fallthrough = true
+
+[[build.upload.rules]]
+type = "Data"
+globs = ["**/*"]
+fallthrough = false

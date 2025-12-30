@@ -4,24 +4,26 @@ import { Link } from 'react-router-dom';
 import Logo from '../../assets/images/logos/footer-logo.png';
 
 const FooterTwo = (props) => {
-    const { footerLogo, footerClass, ctaSubtitle, ctaTitle, ctaBtn } = props;
+    const { footerLogo, footerClass, ctaSubtitle, ctaTitle, ctaBtn, hideCta } = props;
     return (
         <>
             <footer id="react-footer" className={footerClass ? footerClass : 'react-footer react-footer-two pt---120'}>
                 <div className="footer-top">
-                    <div className="container">
-                        <div className="footer-top-cta wow animate__fadeInUp" data-wow-duration="0.6s">
-                            <div className="row">
-                                <div className="col-lg-7">
-                                    <h4>{ctaSubtitle ? ctaSubtitle : 'Free Online Course'}</h4>
-                                    <h3>{ctaTitle ? ctaTitle : 'Ready to dive in? Start your free Course today.'}</h3>
-                                </div>
-                                <div className="col-lg-5 text-right">
-                                    <Link to="#">{ctaBtn ? ctaBtn : 'Go To FAQ'} <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></Link>
+                    {!hideCta && (
+                        <div className="container">
+                            <div className="footer-top-cta wow animate__fadeInUp" data-wow-duration="0.6s">
+                                <div className="row">
+                                    <div className="col-lg-7">
+                                        <h4>{ctaSubtitle ? ctaSubtitle : 'Free Gospel Piano Lessons'}</h4>
+                                        <h3>{ctaTitle ? ctaTitle : 'Ready to master gospel piano? Start your journey today.'}</h3>
+                                    </div>
+                                    <div className="col-lg-5 text-right">
+                                        <Link to="/faq">{ctaBtn ? ctaBtn : 'View FAQ'} <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></Link>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    )}
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-3 md-mb-30">
@@ -49,7 +51,7 @@ const FooterTwo = (props) => {
                                                 <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
                                                 <polyline points="22,6 12,13 2,6"></polyline>
                                             </svg>
-                                            <a href="mailto:info@yourdmain.com"> info@echooling.com </a>
+                                            <a href="mailto:info@gospelkeysdemystified.com"> info@gospelkeysdemystified.com </a>
                                         </li>
                                     </ul>                               
                                 </div>
@@ -88,7 +90,7 @@ const FooterTwo = (props) => {
                                 <div className="footer-widget footer-widget-4">
                                     <h3 className="footer-title">Newsletter</h3> 
                                     <div className="footer3__form">
-                                        <p>Get the latest Echooling news <br/>delivered to you inbox</p>
+                                        <p>Get the latest Gospel Keys Demystified news <br/>delivered to you inbox</p>
                                         <form action="#">
                                             <input type="email" required placeholder="Enter your email" />
                                             <button className="footer3__form-1">

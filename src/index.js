@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
 import { EnrollmentProvider } from './context/EnrollmentContext';
+import { CartProvider } from './context/CartContext';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/scss/main.scss';
@@ -15,9 +16,11 @@ root.render(
 	<React.StrictMode>
 		<BrowserRouter>
 			<AuthProvider>
-				<EnrollmentProvider>
-					<App />
-				</EnrollmentProvider>
+				<CartProvider>
+					<EnrollmentProvider>
+						<App />
+					</EnrollmentProvider>
+				</CartProvider>
 			</AuthProvider>
 		</BrowserRouter>
 	</React.StrictMode>,

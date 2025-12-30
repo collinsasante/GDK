@@ -14,7 +14,7 @@ const Feature = () => {
             <div className="react__title__section react__title__section-all">
                 <div className="row">
                     <div className="col-md-12 text-center">
-                        <h6 className="wow animate__fadeInUp" data-wow-duration="0.3s">Echooling available courses</h6>
+                        <h6 className="wow animate__fadeInUp" data-wow-duration="0.3s">Gospel Keys Demystified available courses</h6>
                         <h2 className="react__tittle wow animate__fadeInUp" data-wow-duration="0.5s"> Online Coaching Lessons For <br/>Remote Learning </h2>
                     </div>                                
                 </div>                            

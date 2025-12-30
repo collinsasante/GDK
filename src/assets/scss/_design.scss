@@ -3,7 +3,7 @@
 *
 * -----------------------------------------------------------------------------
 *
-* Template : Echooling - Online Education React Template
+* Template : Gospel Keys Demystified - Gospel Piano Learning Platform
 * Author : reacthemes
 * Author URI : https://reactheme.com/
 *
@@ -8706,7 +8706,7 @@ ul {
     11. Breadcrumbs Section CSS 
 ****************************/
 
-.react-breadcrumbs {
+.page-header-section {
     .breadcrumbs-wrap {
         position: relative;
         overflow: hidden;
@@ -8774,7 +8774,7 @@ ul {
         }
     }
 
-    &.react-breadcrumbs-single {
+    &.page-header-section-single {
         .container {
             max-width: 1200px;
 
@@ -8790,7 +8790,7 @@ ul {
             }
         }
 
-        .react-breadcrumbs .breadcrumbs-wrap .breadcrumbs-inner {
+        .page-header-section .breadcrumbs-wrap .breadcrumbs-inner {
             top: 61%;
         }
 
@@ -8799,7 +8799,7 @@ ul {
         }
     }
 
-    &.react-breadcrumbs-blog-single {
+    &.page-header-section-blog-single {
         .container {
             max-width: 1200px;
         }
@@ -9522,7 +9522,7 @@ ul {
         }
     }
 
-    .react-breadcrumbs .breadcrumbs-wrap .breadcrumbs-inner .breadcrumbs-text {
+    .page-header-section .breadcrumbs-wrap .breadcrumbs-inner .breadcrumbs-text {
         max-width: unset;
     }
 }
@@ -12227,7 +12227,7 @@ body.courses-grid-page {
     25. Courses Section CSS Here  
 ****************************/
 body.course-single {
-    .react-breadcrumbs .breadcrumbs-wrap .breadcrumbs-inner .breadcrumbs-text {
+    .page-header-section .breadcrumbs-wrap .breadcrumbs-inner .breadcrumbs-text {
         text-align: left;
 
         .cate {

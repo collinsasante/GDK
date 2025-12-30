@@ -5,7 +5,7 @@ import { useAuth } from '../../context/AuthContext';
 const MenuItems = (props) => {
 
     const { parentMenu } = props;
-    const { isAdmin } = useAuth();
+    const { isAdmin, isAuthenticated } = useAuth();
 
     const location = useLocation();
     const postURL = location.pathname.split('/'); 
@@ -115,9 +115,11 @@ const MenuItems = (props) => {
                 </Link>
             </li>
 
-            <li className={location.pathname === '/my-lessons' ? 'menu-active' : ''}>
-                <Link to="/my-lessons">My Lessons</Link>
-            </li>
+            {isAuthenticated && (
+                <li className={location.pathname === '/my-lessons' ? 'menu-active' : ''}>
+                    <Link to="/my-lessons">My Lessons</Link>
+                </li>
+            )}
 
             {isAdmin && (
                 <li className={location.pathname === '/admin' ? 'menu-active' : ''}>

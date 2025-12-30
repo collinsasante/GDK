@@ -15,7 +15,7 @@ const Checkout = () => {
             />
             <CheckoutMain />
             <ScrollToTop />
-            <FooterTwo footerLogo={footerLogo} />
+            <FooterTwo footerLogo={footerLogo} hideCta={true} />
         </>
     );
 };

@@ -11,7 +11,7 @@ const ErrorContent = () => {
                         <main id="main" className="site-main">    
                             <section className="error-404 not-found">    
                                 <div className="page-content">
-                                    <img className="error-image" src={errorImg} alt="Echooling - Education React Template" />
+                                    <img className="error-image" src={errorImg} alt="Gospel Keys Demystified - Gospel Piano Learning Platform" />
                                     <h2>
                                         <span>404. Page not found</span>                      
                                         Sorry, we couldn’t find the page you where looking for. We suggest that you return to homepage.

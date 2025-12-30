@@ -38,8 +38,8 @@ const Testimonial = () => {
             <div className="react-clients react-clientso pt---120 pb---120">
                 <div className="container">
                     <div className="react__title__section text-center">
-                        <h6 className="react__subtitle wow animate__fadeInUp" data-wow-duration="0.3s">Graat Words About Echooling.</h6>
-                        <h2 className="react__tittle wow animate__fadeInUp" data-wow-duration="0.5s"> What our clients say about </h2>
+                        <h6 className="react__subtitle wow animate__fadeInUp" data-wow-duration="0.3s">Student Success Stories</h6>
+                        <h2 className="react__tittle wow animate__fadeInUp" data-wow-duration="0.5s"> What Our Piano Students Say </h2>
                     </div>
                     <div className="client-slider">
                         <Slider {...testimonialSettings}>

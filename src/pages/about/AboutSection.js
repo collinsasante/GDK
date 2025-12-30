@@ -18,7 +18,7 @@ const AboutPart = () => {
                     </div>
                     <div className="col-lg-6">
                         <div className="about__content">
-                            <h2 className="about__title wow animate__fadeInUp" data-wow-duration="0.3s">Welcome to <br/> <em>Echooling LMS Platform</em></h2>
+                            <h2 className="about__title wow animate__fadeInUp" data-wow-duration="0.3s">Welcome to <br/> <em>Gospel Keys Demystified LMS Platform</em></h2>
                             <p className="about__paragraph wow animate__fadeInUp" data-wow-duration="0.5s">Education is both the act of teaching knowledge to others and<br/> the act of receiving knowledge from someone else.</p>
                             <p className="about__paragraph2 wow animate__fadeInUp" data-wow-duration="0.7s"> Have questions?  <Link to="#"> Get Free Guide </Link></p>
                             <p className="wow animate__fadeInUp" data-wow-duration="0.9s">Education also refers to the knowledge received through schooling instruction <br/>and to the institution of teaching as a whole. The main purpose of education <br/>is the integral development of a person.</p>
